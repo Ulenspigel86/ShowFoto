@@ -6,47 +6,68 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		454B20D1E9EDE76D50C5ED3C /* Pods_ShowFoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631B73B9C3E0E6330D45E705 /* Pods_ShowFoto.framework */; };
+		61B583B82D2B283100872C6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B583AE2D2B283100872C6A /* AppDelegate.swift */; };
+		61B583B92D2B283100872C6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B583B52D2B283100872C6A /* SceneDelegate.swift */; };
+		61B583BA2D2B283100872C6A /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B583B62D2B283100872C6A /* PhotosViewController.swift */; };
+		61B583BB2D2B283100872C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B583AF2D2B283100872C6A /* Assets.xcassets */; };
+		61B583BD2D2B283100872C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B583B22D2B283100872C6A /* LaunchScreen.storyboard */; };
+		61B583BE2D2B283100872C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B583B42D2B283100872C6A /* Main.storyboard */; };
+		61B583C72D2B2C9300872C6A /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B583C62D2B2C9300872C6A /* PhotosCell.swift */; };
+		61B583C92D2B2DC100872C6A /* SearchBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B583C82D2B2DC100872C6A /* SearchBarCell.swift */; };
+		61B583CB2D2B30D000872C6A /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B583CA2D2B30D000872C6A /* SearchResults.swift */; };
+		61B583CD2D2B313200872C6A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B583CC2D2B313200872C6A /* NetworkService.swift */; };
+		61B583CF2D2B319D00872C6A /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B583CE2D2B319D00872C6A /* NetworkDataFetcher.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		2DD07C1AA81BACBC016B7A6D /* Pods-ShowFoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShowFoto.debug.xcconfig"; path = "Target Support Files/Pods-ShowFoto/Pods-ShowFoto.debug.xcconfig"; sourceTree = "<group>"; };
 		61B583962D2B27FE00872C6A /* ShowFoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowFoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B583AE2D2B283100872C6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61B583AF2D2B283100872C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61B583B02D2B283100872C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61B583B12D2B283100872C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61B583B32D2B283100872C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61B583B52D2B283100872C6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61B583B62D2B283100872C6A /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		61B583C62D2B2C9300872C6A /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+		61B583C82D2B2DC100872C6A /* SearchBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarCell.swift; sourceTree = "<group>"; };
+		61B583CA2D2B30D000872C6A /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		61B583CC2D2B313200872C6A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		61B583CE2D2B319D00872C6A /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		631B73B9C3E0E6330D45E705 /* Pods_ShowFoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShowFoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E8DC617E61257199CA2409 /* Pods-ShowFoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShowFoto.release.xcconfig"; path = "Target Support Files/Pods-ShowFoto/Pods-ShowFoto.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		61B583A82D2B280000872C6A /* Exceptions for "ShowFoto" folder in "ShowFoto" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 61B583952D2B27FE00872C6A /* ShowFoto */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		61B583982D2B27FE00872C6A /* ShowFoto */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				61B583A82D2B280000872C6A /* Exceptions for "ShowFoto" folder in "ShowFoto" target */,
-			);
-			path = ShowFoto;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		61B583932D2B27FE00872C6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454B20D1E9EDE76D50C5ED3C /* Pods_ShowFoto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FE88F8C6E9B9B5F44C96020 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DD07C1AA81BACBC016B7A6D /* Pods-ShowFoto.debug.xcconfig */,
+				96E8DC617E61257199CA2409 /* Pods-ShowFoto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		61B5838D2D2B27FE00872C6A = {
 			isa = PBXGroup;
 			children = (
-				61B583982D2B27FE00872C6A /* ShowFoto */,
+				61B583B72D2B283100872C6A /* ShowFoto */,
 				61B583972D2B27FE00872C6A /* Products */,
+				5FE88F8C6E9B9B5F44C96020 /* Pods */,
+				7DB05079ED599632656810E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +79,89 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		61B583B72D2B283100872C6A /* ShowFoto */ = {
+			isa = PBXGroup;
+			children = (
+				61B583BF2D2B283C00872C6A /* ViewControllers */,
+				61B583C02D2B286000872C6A /* Views */,
+				61B583C12D2B288500872C6A /* Services */,
+				61B583C22D2B28AE00872C6A /* Models */,
+				61B583C32D2B28D000872C6A /* Storyboards */,
+				61B583C42D2B28F400872C6A /* App */,
+				61B583C52D2B292700872C6A /* Resources */,
+			);
+			path = ShowFoto;
+			sourceTree = "<group>";
+		};
+		61B583BF2D2B283C00872C6A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				61B583B62D2B283100872C6A /* PhotosViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		61B583C02D2B286000872C6A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				61B583C62D2B2C9300872C6A /* PhotosCell.swift */,
+				61B583C82D2B2DC100872C6A /* SearchBarCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		61B583C12D2B288500872C6A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				61B583CC2D2B313200872C6A /* NetworkService.swift */,
+				61B583CE2D2B319D00872C6A /* NetworkDataFetcher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		61B583C22D2B28AE00872C6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61B583CA2D2B30D000872C6A /* SearchResults.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		61B583C32D2B28D000872C6A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				61B583B42D2B283100872C6A /* Main.storyboard */,
+				61B583B22D2B283100872C6A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		61B583C42D2B28F400872C6A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				61B583AE2D2B283100872C6A /* AppDelegate.swift */,
+				61B583B52D2B283100872C6A /* SceneDelegate.swift */,
+				61B583B02D2B283100872C6A /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		61B583C52D2B292700872C6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61B583AF2D2B283100872C6A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7DB05079ED599632656810E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				631B73B9C3E0E6330D45E705 /* Pods_ShowFoto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,20 +169,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61B583A92D2B280000872C6A /* Build configuration list for PBXNativeTarget "ShowFoto" */;
 			buildPhases = (
+				A232C8903A8584A0806703BA /* [CP] Check Pods Manifest.lock */,
 				61B583922D2B27FE00872C6A /* Sources */,
 				61B583932D2B27FE00872C6A /* Frameworks */,
 				61B583942D2B27FE00872C6A /* Resources */,
+				CD86BAFD4DF6396B11EABF54 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				61B583982D2B27FE00872C6A /* ShowFoto */,
-			);
 			name = ShowFoto;
-			packageProductDependencies = (
-			);
 			productName = ShowFoto;
 			productReference = 61B583962D2B27FE00872C6A /* ShowFoto.app */;
 			productType = "com.apple.product-type.application";
@@ -122,36 +223,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B583BB2D2B283100872C6A /* Assets.xcassets in Resources */,
+				61B583BD2D2B283100872C6A /* LaunchScreen.storyboard in Resources */,
+				61B583BE2D2B283100872C6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A232C8903A8584A0806703BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShowFoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD86BAFD4DF6396B11EABF54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShowFoto/Pods-ShowFoto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShowFoto/Pods-ShowFoto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShowFoto/Pods-ShowFoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61B583922D2B27FE00872C6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B583CF2D2B319D00872C6A /* NetworkDataFetcher.swift in Sources */,
+				61B583B82D2B283100872C6A /* AppDelegate.swift in Sources */,
+				61B583C72D2B2C9300872C6A /* PhotosCell.swift in Sources */,
+				61B583B92D2B283100872C6A /* SceneDelegate.swift in Sources */,
+				61B583C92D2B2DC100872C6A /* SearchBarCell.swift in Sources */,
+				61B583CB2D2B30D000872C6A /* SearchResults.swift in Sources */,
+				61B583BA2D2B283100872C6A /* PhotosViewController.swift in Sources */,
+				61B583CD2D2B313200872C6A /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		61B583B22D2B283100872C6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B583B12D2B283100872C6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		61B583B42D2B283100872C6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61B583B32D2B283100872C6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		61B583AA2D2B280000872C6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD07C1AA81BACBC016B7A6D /* Pods-ShowFoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YNP6SHCFL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShowFoto/Info.plist;
+				INFOPLIST_FILE = ShowFoto/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -159,26 +335,33 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lenspigel0-rambler.ru.ShowFoto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		61B583AB2D2B280000872C6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E8DC617E61257199CA2409 /* Pods-ShowFoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6YNP6SHCFL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ShowFoto/Info.plist;
+				INFOPLIST_FILE = ShowFoto/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -186,9 +369,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "lenspigel0-rambler.ru.ShowFoto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -229,7 +416,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -244,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -292,7 +479,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -301,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
